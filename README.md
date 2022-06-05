@@ -2,6 +2,11 @@
 
 Just clone, adjust the below listed parameters to your liking, and leave it running!
 
+## Requirements
+```bash
+pip install beautifulsoup4
+```
+
 ## Settings
 | Parameter             | Type      | Description                |
 | :-------------------- | :-------- | :------------------------- |
