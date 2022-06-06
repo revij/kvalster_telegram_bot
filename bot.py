@@ -12,7 +12,7 @@ import sys
 # -- Parameters -- #
 DEBUG = False
 
-REFRESH_RATE = 30
+REFRESH_RATE = 120
 
 TELEGRAM_TOKEN_ID = ""
 TELEGRAM_CHAT_ID = ""
@@ -114,4 +114,4 @@ while True:
 
 	console_output = "[Uptime: " + str(time.strftime('%H:%M:%S', time.gmtime(round(time.time() - initTime)))) + "]"
 	sys.stdout.write("%s   \r" % (console_output) )
-	time.sleep(30)
+	time.sleep(REFRESH_RATE)
